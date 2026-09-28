@@ -50,9 +50,9 @@ module "s3_documents" {
 
 # DNS: apex hosted zone (+ optional apex ALIAS -> Traefik NLB in stage 2).
 # See docs/aws/05-dns-godaddy.md for the two-stage apply + GoDaddy delegation.
-module "route53" {
-  source = "../../modules/route53"
+ # module "route53" {
+ # source = "../../modules/route53"
 
-  domain_name        = var.domain_name
-  create_apex_record = var.create_apex_record
-}
+  # domain_name        = var.domain_name
+  # create_apex_record = var.create_apex_record
+  # }

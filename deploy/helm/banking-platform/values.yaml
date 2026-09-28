@@ -49,7 +49,7 @@ secrets:
 authService:
   deploymentname: auth-service-deployment
   servicename: auth-service
-  image: 118178010323.dkr.ecr.us-east-1.amazonaws.com/banking-platform:auth-service-e5ba34751daa
+  image: 609356923109.dkr.ecr.us-east-1.amazonaws.com/banking-platform:auth-service-5c7d111847bd
   replicas: 1
   port: 8080
   grpcPort: 9090
@@ -59,7 +59,7 @@ authService:
 authzService:
   deploymentname: authz-service-deployment
   servicename: authz-service
-  image: 118178010323.dkr.ecr.us-east-1.amazonaws.com/banking-platform:authz-service-e5ba34751daa
+  image: 609356923109.dkr.ecr.us-east-1.amazonaws.com/banking-platform:authz-service-5c7d111847bd
   replicas: 1
   port: 8080
   grpcPort: 9090
@@ -69,7 +69,7 @@ authzService:
 customerService:
   deploymentname: customer-service-deployment
   servicename: customer-service
-  image: 118178010323.dkr.ecr.us-east-1.amazonaws.com/banking-platform:customer-service-e5ba34751daa
+  image: 609356923109.dkr.ecr.us-east-1.amazonaws.com/banking-platform:customer-service-5c7d111847bd
   replicas: 1
   port: 8080
   hpa: customer-service-hpa
@@ -78,7 +78,7 @@ customerService:
 profileService:
   deploymentname: profile-service-deployment
   servicename: profile-service
-  image: 118178010323.dkr.ecr.us-east-1.amazonaws.com/banking-platform:profile-service-e5ba34751daa
+  image: 609356923109.dkr.ecr.us-east-1.amazonaws.com/banking-platform:profile-service-5c7d111847bd
   replicas: 1
   port: 8080
   hpa: profile-service-hpa
@@ -87,7 +87,7 @@ profileService:
 kycService:
   deploymentname: kyc-service-deployment
   servicename: kyc-service
-  image: 118178010323.dkr.ecr.us-east-1.amazonaws.com/banking-platform:kyc-service-e5ba34751daa
+  image: 609356923109.dkr.ecr.us-east-1.amazonaws.com/banking-platform:kyc-service-5c7d111847bd
   replicas: 1
   port: 8080
   hpa: kyc-service-hpa
@@ -96,7 +96,7 @@ kycService:
 documentService:
   deploymentname: document-service-deployment
   servicename: document-service
-  image: 118178010323.dkr.ecr.us-east-1.amazonaws.com/banking-platform:document-service-e5ba34751daa
+  image: 609356923109.dkr.ecr.us-east-1.amazonaws.com/banking-platform:document-service-5c7d111847bd
   replicas: 1
   port: 8080
   hpa: document-service-hpa
@@ -105,7 +105,7 @@ documentService:
 ledgerService:
   deploymentname: ledger-service-deployment
   servicename: ledger-service
-  image: 118178010323.dkr.ecr.us-east-1.amazonaws.com/banking-platform:ledger-service-e5ba34751daa
+  image: 609356923109.dkr.ecr.us-east-1.amazonaws.com/banking-platform:ledger-service-5c7d111847bd
   replicas: 1
   port: 8080
   grpcPort: 9090
@@ -115,7 +115,7 @@ ledgerService:
 accountService:
   deploymentname: account-service-deployment
   servicename: account-service
-  image: 118178010323.dkr.ecr.us-east-1.amazonaws.com/banking-platform:account-service-e5ba34751daa
+  image: 609356923109.dkr.ecr.us-east-1.amazonaws.com/banking-platform:account-service-5c7d111847bd
   replicas: 1
   port: 8080
   grpcPort: 9090
@@ -125,7 +125,7 @@ accountService:
 transactionService:
   deploymentname: transaction-service-deployment
   servicename: transaction-service
-  image: 118178010323.dkr.ecr.us-east-1.amazonaws.com/banking-platform:transaction-service-e5ba34751daa
+  image: 609356923109.dkr.ecr.us-east-1.amazonaws.com/banking-platform:transaction-service-5c7d111847bd
   replicas: 1
   port: 8080
   hpa: transaction-service-hpa
@@ -134,7 +134,7 @@ transactionService:
 beneficiaryService:
   deploymentname: beneficiary-service-deployment
   servicename: beneficiary-service
-  image: 118178010323.dkr.ecr.us-east-1.amazonaws.com/banking-platform:beneficiary-service-e5ba34751daa
+  image: 609356923109.dkr.ecr.us-east-1.amazonaws.com/banking-platform:beneficiary-service-5c7d111847bd
   replicas: 1
   port: 8080
   hpa: beneficiary-service-hpa
@@ -143,7 +143,7 @@ beneficiaryService:
 paymentService:
   deploymentname: payment-service-deployment
   servicename: payment-service
-  image: 118178010323.dkr.ecr.us-east-1.amazonaws.com/banking-platform:payment-service-e5ba34751daa
+  image: 609356923109.dkr.ecr.us-east-1.amazonaws.com/banking-platform:payment-service-5c7d111847bd
   replicas: 1
   port: 8080
   hpa: payment-service-hpa
@@ -152,7 +152,7 @@ paymentService:
 walletService:
   deploymentname: wallet-service-deployment
   servicename: wallet-service
-  image: 118178010323.dkr.ecr.us-east-1.amazonaws.com/banking-platform:wallet-service-e5ba34751daa
+  image: 609356923109.dkr.ecr.us-east-1.amazonaws.com/banking-platform:wallet-service-5c7d111847bd
   replicas: 1
   port: 8080
   hpa: wallet-service-hpa
@@ -161,7 +161,7 @@ walletService:
 loanService:
   deploymentname: loan-service-deployment
   servicename: loan-service
-  image: 118178010323.dkr.ecr.us-east-1.amazonaws.com/banking-platform:loan-service-e5ba34751daa
+  image: 609356923109.dkr.ecr.us-east-1.amazonaws.com/banking-platform:loan-service-5c7d111847bd
   replicas: 1
   port: 8080
   hpa: loan-service-hpa
@@ -170,7 +170,7 @@ loanService:
 emiService:
   deploymentname: emi-service-deployment
   servicename: emi-service
-  image: 118178010323.dkr.ecr.us-east-1.amazonaws.com/banking-platform:emi-service-e5ba34751daa
+  image: 609356923109.dkr.ecr.us-east-1.amazonaws.com/banking-platform:emi-service-5c7d111847bd
   replicas: 1
   port: 8080
   hpa: emi-service-hpa
@@ -179,7 +179,7 @@ emiService:
 fixedDepositService:
   deploymentname: fixed-deposit-service-deployment
   servicename: fixed-deposit-service
-  image: 118178010323.dkr.ecr.us-east-1.amazonaws.com/banking-platform:fixed-deposit-service-e5ba34751daa
+  image: 609356923109.dkr.ecr.us-east-1.amazonaws.com/banking-platform:fixed-deposit-service-5c7d111847bd
   replicas: 1
   port: 8080
   hpa: fixed-deposit-service-hpa
@@ -188,7 +188,7 @@ fixedDepositService:
 recurringDepositService:
   deploymentname: recurring-deposit-service-deployment
   servicename: recurring-deposit-service
-  image: 118178010323.dkr.ecr.us-east-1.amazonaws.com/banking-platform:recurring-deposit-service-e5ba34751daa
+  image: 609356923109.dkr.ecr.us-east-1.amazonaws.com/banking-platform:recurring-deposit-service-5c7d111847bd
   replicas: 1
   port: 8080
   hpa: recurring-deposit-service-hpa
@@ -197,7 +197,7 @@ recurringDepositService:
 cardService:
   deploymentname: card-service-deployment
   servicename: card-service
-  image: 118178010323.dkr.ecr.us-east-1.amazonaws.com/banking-platform:card-service-e5ba34751daa
+  image: 609356923109.dkr.ecr.us-east-1.amazonaws.com/banking-platform:card-service-5c7d111847bd
   replicas: 1
   port: 8080
   hpa: card-service-hpa
@@ -206,7 +206,7 @@ cardService:
 investmentService:
   deploymentname: investment-service-deployment
   servicename: investment-service
-  image: 118178010323.dkr.ecr.us-east-1.amazonaws.com/banking-platform:investment-service-e5ba34751daa
+  image: 609356923109.dkr.ecr.us-east-1.amazonaws.com/banking-platform:investment-service-5c7d111847bd
   replicas: 1
   port: 8080
   hpa: investment-service-hpa
@@ -215,7 +215,7 @@ investmentService:
 currencyExchangeService:
   deploymentname: currency-exchange-service-deployment
   servicename: currency-exchange-service
-  image: 118178010323.dkr.ecr.us-east-1.amazonaws.com/banking-platform:currency-exchange-service-e5ba34751daa
+  image: 609356923109.dkr.ecr.us-east-1.amazonaws.com/banking-platform:currency-exchange-service-5c7d111847bd
   replicas: 1
   port: 8080
   hpa: currency-exchange-service-hpa
@@ -224,7 +224,7 @@ currencyExchangeService:
 auditService:
   deploymentname: audit-service-deployment
   servicename: audit-service
-  image: 118178010323.dkr.ecr.us-east-1.amazonaws.com/banking-platform:audit-service-e5ba34751daa
+  image: 609356923109.dkr.ecr.us-east-1.amazonaws.com/banking-platform:audit-service-5c7d111847bd
   replicas: 1
   port: 8080
   hpa: audit-service-hpa
@@ -233,7 +233,7 @@ auditService:
 fraudService:
   deploymentname: fraud-service-deployment
   servicename: fraud-service
-  image: 118178010323.dkr.ecr.us-east-1.amazonaws.com/banking-platform:fraud-service-e5ba34751daa
+  image: 609356923109.dkr.ecr.us-east-1.amazonaws.com/banking-platform:fraud-service-5c7d111847bd
   replicas: 1
   port: 8080
   hpa: fraud-service-hpa
@@ -242,7 +242,7 @@ fraudService:
 notificationService:
   deploymentname: notification-service-deployment
   servicename: notification-service
-  image: 118178010323.dkr.ecr.us-east-1.amazonaws.com/banking-platform:notification-service-e5ba34751daa
+  image: 609356923109.dkr.ecr.us-east-1.amazonaws.com/banking-platform:notification-service-5c7d111847bd
   replicas: 1
   port: 8080
   hpa: notification-service-hpa
@@ -251,7 +251,7 @@ notificationService:
 statementService:
   deploymentname: statement-service-deployment
   servicename: statement-service
-  image: 118178010323.dkr.ecr.us-east-1.amazonaws.com/banking-platform:statement-service-e5ba34751daa
+  image: 609356923109.dkr.ecr.us-east-1.amazonaws.com/banking-platform:statement-service-5c7d111847bd
   replicas: 1
   port: 8080
   hpa: statement-service-hpa
@@ -260,7 +260,7 @@ statementService:
 reportsService:
   deploymentname: reports-service-deployment
   servicename: reports-service
-  image: 118178010323.dkr.ecr.us-east-1.amazonaws.com/banking-platform:reports-service-e5ba34751daa
+  image: 609356923109.dkr.ecr.us-east-1.amazonaws.com/banking-platform:reports-service-5c7d111847bd
   replicas: 1
   port: 8080
   hpa: reports-service-hpa
@@ -269,7 +269,7 @@ reportsService:
 analyticsService:
   deploymentname: analytics-service-deployment
   servicename: analytics-service
-  image: 118178010323.dkr.ecr.us-east-1.amazonaws.com/banking-platform:analytics-service-e5ba34751daa
+  image: 609356923109.dkr.ecr.us-east-1.amazonaws.com/banking-platform:analytics-service-5c7d111847bd
   replicas: 1
   port: 8080
   hpa: analytics-service-hpa
@@ -278,7 +278,7 @@ analyticsService:
 searchService:
   deploymentname: search-service-deployment
   servicename: search-service
-  image: 118178010323.dkr.ecr.us-east-1.amazonaws.com/banking-platform:search-service-e5ba34751daa
+  image: 609356923109.dkr.ecr.us-east-1.amazonaws.com/banking-platform:search-service-5c7d111847bd
   replicas: 1
   port: 8080
   hpa: search-service-hpa
@@ -287,7 +287,7 @@ searchService:
 emailService:
   deploymentname: email-service-deployment
   servicename: email-service
-  image: 118178010323.dkr.ecr.us-east-1.amazonaws.com/banking-platform:email-service-e5ba34751daa
+  image: 609356923109.dkr.ecr.us-east-1.amazonaws.com/banking-platform:email-service-5c7d111847bd
   replicas: 1
   port: 8080
   hpa: email-service-hpa
@@ -296,7 +296,7 @@ emailService:
 smsService:
   deploymentname: sms-service-deployment
   servicename: sms-service
-  image: 118178010323.dkr.ecr.us-east-1.amazonaws.com/banking-platform:sms-service-e5ba34751daa
+  image: 609356923109.dkr.ecr.us-east-1.amazonaws.com/banking-platform:sms-service-5c7d111847bd
   replicas: 1
   port: 8080
   hpa: sms-service-hpa
@@ -305,7 +305,7 @@ smsService:
 supportService:
   deploymentname: support-service-deployment
   servicename: support-service
-  image: 118178010323.dkr.ecr.us-east-1.amazonaws.com/banking-platform:support-service-e5ba34751daa
+  image: 609356923109.dkr.ecr.us-east-1.amazonaws.com/banking-platform:support-service-5c7d111847bd
   replicas: 1
   port: 8080
   hpa: support-service-hpa
@@ -314,7 +314,7 @@ supportService:
 adminService:
   deploymentname: admin-service-deployment
   servicename: admin-service
-  image: 118178010323.dkr.ecr.us-east-1.amazonaws.com/banking-platform:admin-service-e5ba34751daa
+  image: 609356923109.dkr.ecr.us-east-1.amazonaws.com/banking-platform:admin-service-5c7d111847bd
   replicas: 1
   port: 8080
   hpa: admin-service-hpa
@@ -326,7 +326,7 @@ adminService:
 apiGateway:
   deploymentname: api-gateway-deployment
   servicename: api-gateway
-  image: 118178010323.dkr.ecr.us-east-1.amazonaws.com/banking-platform:api-gateway-e5ba34751daa
+  image: 609356923109.dkr.ecr.us-east-1.amazonaws.com/banking-platform:api-gateway-5c7d111847bd
   replicas: 1
   port: 8080
   serviceType: NodePort
@@ -338,7 +338,7 @@ apiGateway:
 frontend:
   deploymentname: frontend-deployment
   servicename: frontend
-  image: 118178010323.dkr.ecr.us-east-1.amazonaws.com/banking-platform:frontend-e5ba34751daa
+  image: 609356923109.dkr.ecr.us-east-1.amazonaws.com/banking-platform:frontend-5c7d111847bd
   replicas: 1
   port: 8080
   serviceType: NodePort

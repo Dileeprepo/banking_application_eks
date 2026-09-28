@@ -47,6 +47,6 @@ output "documents_bucket" {
 # value = module.route53.name_servers
 #}
 
-output "apex_fqdn" {
-  value = module.route53.apex_fqdn
-}
+#output "apex_fqdn" {
+# value = module.route53.apex_fqdn
+#}

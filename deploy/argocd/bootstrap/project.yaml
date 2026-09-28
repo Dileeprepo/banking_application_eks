@@ -9,7 +9,7 @@ spec:
   description: Banking platform
   sourceRepos:
     # Our git repo (chart + argocd manifests + observability values).
-    - "https://github.com/vijaygiduthuri/banking_application_eks.git"
+    - "https://github.com/Dileeprepo/banking_application_eks.git"
     # Helm chart repos the observability + cert-manager Applications pull from.
     - "https://prometheus-community.github.io/helm-charts"
     - "https://grafana.github.io/helm-charts"
